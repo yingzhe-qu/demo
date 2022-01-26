@@ -1,0 +1,10 @@
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.2.16:3306/hotel_tripg?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8
+    username: tripg
+    password: 88691111
